@@ -1,3 +1,3 @@
 # Tarea1
-Diego Sebastian Urbano Moncada
+Diego Sebastian Urbano Moncada y 
 Camilo Sebastian Tapia Correa
