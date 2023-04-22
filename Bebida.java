@@ -1,4 +1,4 @@
-abstract class Bebida{
+abstract class Bebida implements Producto{
     private int seriebebida;
     public Bebida(int numSerie){
         seriebebida = numSerie;

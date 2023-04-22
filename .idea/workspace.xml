@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Expendedor.java" afterDir="false" />
+    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update public Moneda">
+      <change afterPath="$PROJECT_DIR$/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bebida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dulce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +54,48 @@
       <option name="presentableId" value="Default" />
       <updated>1682191428854</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update Depositos y Exp">
+      <created>1682202452444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682202452444</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update Depositos y Exp">
+      <created>1682202760811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682202760811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update DepD y Exp">
+      <created>1682203092605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682203092605</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update DepD y Exp">
+      <created>1682203592521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682203592521</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update public Moneda">
+      <created>1682203802542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682203802542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Depositos y Exp" />
+    <MESSAGE value="Update DepD y Exp" />
+    <MESSAGE value="Update public Moneda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update public Moneda" />
   </component>
 </project>

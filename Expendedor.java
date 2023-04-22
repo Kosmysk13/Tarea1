@@ -27,7 +27,7 @@ class Expendedor{
             depsuper8.addDulce(d2);
         }
     }
-    public Bebida comprarBebida(Moneda mon, int cualP){
+    public Bebida comprarProducto(Moneda mon, int cualP){
         Bebida b = null;
         Dulce d = null;
         if (mon!=null){
