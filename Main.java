@@ -114,16 +114,16 @@ abstract class Dulce{
 }
 class DepositoB{
     Bebida b = null;
-    ArrayList<Bebida> al = new ArrayList<Bebida>();
+    ArrayList<Bebida> almB = new ArrayList<Bebida>();
     public DepositoB(){
     }
     public void addBebida(Bebida beb){
-        al.add(beb);
+        almB.add(beb);
     }
     public Bebida getBebida(){
-        if (al.size()>0){
-            Bebida b1 = al.get(0);
-            al.remove(0);
+        if (almB.size()>0){
+            Bebida b1 = almB.get(0);
+            almB.remove(0);
             return b1;
         }else{
             return null;
@@ -132,17 +132,35 @@ class DepositoB{
 }
 class DepositoM{
     Moneda mon = null;
-    ArrayList<Moneda> alm = new ArrayList<Moneda>();
+    ArrayList<Moneda> almM = new ArrayList<Moneda>();
     public DepositoM(){
     }
     public void addMoneda(Moneda mone){
-        alm.add(mone);
+        almM.add(mone);
     }
     public Moneda getMoneda(){
-        if (alm.size()>0){
-            Moneda m1 = alm.get(0);
-            alm.remove(0);
+        if (almM.size()>0){
+            Moneda m1 = almM.get(0);
+            almM.remove(0);
             return m1;
+        }else{
+            return null;
+        }
+    }
+}
+class DepositoD{
+    Moneda mon = null;
+    ArrayList<Moneda> almD = new ArrayList<Moneda>();
+    public DepositoD(){
+    }
+    public void addDulce(Dulce dulce){
+        almD.add(dulce);
+    }
+    public Dulce getDulce(){
+        if (almD.size()>0){
+            Dulce d1 = almD.get(0);
+            almD.remove(0);
+            return d1;
         }else{
             return null;
         }
