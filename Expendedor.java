@@ -16,23 +16,35 @@ class Expendedor{
             depcoca.addBebida(b1);
             Bebida b2 = new Sprite(200 + i);
             depsprite.addBebida(b2);
+            Dulce d1 = new Snickers(300 + i);
+            depsnickers.addDulce(d1);
+            Dulce d2 = new Super8(300 + i);
+            depsuper8.addDulce(d2);
         }
     }
-    public Bebida comprarBebida(Moneda mon, int cualB){
+    public Bebida comprarBebida(Moneda mon, int cualP){
         Bebida b = null;
+        Dulce d = null;
         if (mon!=null){
             if (mon.getValor()>=precios){
-                switch (cualB){
+                switch (cualP){
                     case 1:  b = depcoca.getBebida(); break;
                     case 2:  b = depsprite.getBebida(); break;
+                    case 3:  d = depsnickers.getDulce(); break;
+                    case 4:  d = depsuper8.getDulce(); break;
                     default: break;
                 }
                 if (b!=null){
-                    for (int i = 0;i<(mon.getValor()-precios)/100;i++){
+                    for (int i = 0;i<(mon.getValor()-preciosB)/100;i++){
                         Moneda mon1 = new Moneda100();
                         monVu.addMoneda(mon1);
                     }
-                }else{
+                }else if(d!=null){
+                    for (int i = 0;i<(mon.getValor()-preciosD)/100;i++){
+                        Moneda mon1 = new Moneda100();
+                        monVu.addMoneda(mon1);
+                    }
+                }else {
                     Moneda mon1 = mon;
                     monVu.addMoneda(mon1);
                 }
