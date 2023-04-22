@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 class DepositoD{
     Dulce dul = null;
-    ArrayList<Moneda> almD = new ArrayList<Moneda>();
+    ArrayList<Dulce> almD = new ArrayList<Dulce>();
     public DepositoD(){
     }
     public void addDulce(Dulce dulce){
