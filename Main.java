@@ -112,10 +112,10 @@ abstract class Dulce{
         return seriedulce;
     }
 }
-class Deposito{
+class DepositoB{
     Bebida b = null;
     ArrayList<Bebida> al = new ArrayList<Bebida>();
-    public Deposito(){
+    public DepositoB(){
     }
     public void addBebida(Bebida beb){
         al.add(beb);
