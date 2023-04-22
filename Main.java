@@ -93,16 +93,25 @@ abstract class Moneda{
     public abstract int getValor();
 }
 abstract class Bebida{
-    private int serie;
+    private int seriebebida;
     public Bebida(int numSerie){
-        serie = numSerie;
+        seriebebida = numSerie;
     }
     public abstract String beber();
     public int getSerie(Bebida b){
-        return serie;
+        return seriebebida;
     }
 }
-
+abstract class Dulce{
+    private int seriedulce;
+    public Dulce(int numSerie){
+        seriedulce = numSerie;
+    }
+    public abstract String comer();
+    public int getSerie(Dulce d){
+        return seriedulce;
+    }
+}
 class Deposito{
     Bebida b = null;
     ArrayList<Bebida> al = new ArrayList<Bebida>();
@@ -153,6 +162,22 @@ class Sprite extends Bebida{
     }
     public String beber(){
         return "sprite";
+    }
+}
+class Snickers extends Dulce{
+    public Snickers(int serie){
+        super(serie);
+    }
+    public String comer(){
+        return "snickers";
+    }
+}
+class Super8 extends Dulce{
+    public Super8(int serie){
+        super(serie);
+    }
+    public String comer(){
+        return "super8";
     }
 }
 class Moneda1500 extends Moneda{
