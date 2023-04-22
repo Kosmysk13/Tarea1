@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update public Moneda" />
+    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Productos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,13 +92,29 @@
       <option name="project" value="LOCAL" />
       <updated>1682204388591</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add interface Producto">
+      <created>1682204468379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682204468379</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Productos">
+      <created>1682205247811</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682205247811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update Depositos y Exp" />
     <MESSAGE value="Update DepD y Exp" />
     <MESSAGE value="Update public Moneda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update public Moneda" />
+    <MESSAGE value="Add interface Producto" />
+    <MESSAGE value="Update Productos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Productos" />
   </component>
 </project>
