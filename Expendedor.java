@@ -6,11 +6,12 @@ class Expendedor{
     public static final int  SPRITE=2;
     DepositoM monVu = new DepositoM();
 
-    public Expendedor(int numBebidas, int precioBebidas){
-        precios = precioBebidas;
+    public Expendedor(int numProductos, int precioBebidas, int precioDulces){
+        preciosB = precioBebidas;
+        preciosD = precioDulces;
         depcoca = new Deposito();
         depsprite = new Deposito();
-        for (int i=0;i<numBebidas;i++){
+        for (int i=0;i<numProductos;i++){
             Bebida b1 = new CocaCola(100 + i);
             depcoca.addBebida(b1);
             Bebida b2 = new Sprite(200 + i);

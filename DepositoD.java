@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class DepositoD{
-    Moneda mon = null;
+    Dulce dul = null;
     ArrayList<Moneda> almD = new ArrayList<Moneda>();
     public DepositoD(){
     }

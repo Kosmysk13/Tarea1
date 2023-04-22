@@ -2,16 +2,16 @@ import java.util.ArrayList;
 
 class DepositoB{
     Bebida b = null;
-    ArrayList<Bebida> al = new ArrayList<Bebida>();
+    ArrayList<Bebida> almB = new ArrayList<Bebida>();
     public DepositoB(){
     }
     public void addBebida(Bebida beb){
-        al.add(beb);
+        almB.add(beb);
     }
     public Bebida getBebida(){
-        if (al.size()>0){
-            Bebida b1 = al.get(0);
-            al.remove(0);
+        if (almB.size()>0){
+            Bebida b1 = almB.get(0);
+            almB.remove(0);
             return b1;
         }else{
             return null;
