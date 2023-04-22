@@ -1,4 +1,4 @@
-interface Moneda{
+public interface Moneda{
     public Moneda(){
 
     }
