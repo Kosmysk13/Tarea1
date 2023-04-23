@@ -1,3 +1,4 @@
+package org.example;
 public class Moneda implements Comparable{
     public Moneda(){
 

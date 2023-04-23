@@ -1,7 +1,11 @@
 class Expendedor{
-    private int precios;
-    private Deposito depcoca;
-    private Deposito depsprite;
+    private int preciosB;
+    private int preciosD;
+
+    private DepositoB depcoca;
+    private DepositoB depsprite;
+    private DepositoD depsnickers;
+    private DepositoD depsuper8;
     public static final int  COCA=1;
     public static final int  SPRITE=2;
 

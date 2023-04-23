@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Productos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6ce92e94-be1e-4e72-ba75-be510e03de8c" name="Changes" comment="" />
+      <changelist id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Productos" />
       <created>1682191428854</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
