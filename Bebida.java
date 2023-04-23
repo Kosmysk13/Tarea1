@@ -1,3 +1,5 @@
+package org.example;
+
 abstract class Bebida implements Producto{
     private int seriebebida;
     public Bebida(int numSerie){

@@ -1,4 +1,6 @@
-abstract class Dulce implements Producto{
+package org.example;
+
+abstract class Dulce implements Producto {
     private int seriedulce;
     public Dulce(int numSerie){
         seriedulce = numSerie;

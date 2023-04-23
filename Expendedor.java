@@ -1,3 +1,4 @@
+package org.example;
 class Expendedor{
     private int preciosB;
     private int preciosD;
