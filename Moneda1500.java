@@ -9,7 +9,7 @@ public class Moneda1500 extends Moneda{
         return valmon;
     }
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(Moneda o) {
         return 0;
     }
 }

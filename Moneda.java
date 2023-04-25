@@ -1,5 +1,5 @@
 package org.example;
-public abstract class Moneda implements Comparable{
+public abstract class Moneda implements Comparable<Moneda>{
     public Moneda(){
 
     }
