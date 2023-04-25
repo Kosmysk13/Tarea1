@@ -8,4 +8,9 @@ public class Moneda1000 extends Moneda{
     public int getValor(){
         return valmon;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

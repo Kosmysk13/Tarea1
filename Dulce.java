@@ -1,6 +1,6 @@
 package org.example;
 
-abstract class Dulce extends Producto {
+public abstract class Dulce extends Producto {
     private int seriedulce;
     public Dulce(int numSerie){
         seriedulce = numSerie;
