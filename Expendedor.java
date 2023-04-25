@@ -1,7 +1,13 @@
-class Expendedor{
-    private int precios;
-    private Deposito depcoca;
-    private Deposito depsprite;
+package org.example;
+
+public class Expendedor{
+    private int preciosB;
+    private int preciosD;
+
+    private DepositoB depcoca;
+    private DepositoB depsprite;
+    private DepositoD depsnickers;
+    private DepositoD depsuper8;
     public static final int  COCA=1;
     public static final int  SPRITE=2;
 
@@ -10,8 +16,8 @@ class Expendedor{
     DepositoM monVu = new DepositoM();
 
     public Expendedor(int numProductos, int precioBebidas, int precioDulces){
-        preciosB = precioBebidas;
-        preciosD = precioDulces;
+        int preciosB = precioBebidas;
+        int preciosD = precioDulces;
         depcoca = new DepositoB();
         depsprite = new DepositoB();
         depsnickers = new DepositoD();
@@ -23,7 +29,7 @@ class Expendedor{
             depsprite.addBebida(b2);
             Dulce d1 = new Snickers(300 + i);
             depsnickers.addDulce(d1);
-            Dulce d2 = new Super8(300 + i);
+            Dulce d2 = new Super8(400 + i);
             depsuper8.addDulce(d2);
         }
     }
@@ -34,8 +40,8 @@ class Expendedor{
             if ((cualP==1)||(cualP==2)){
                 if (mon.getValor()>=preciosB){
                     switch (cualP){
-                        case 1:  b = depcoca.getBebida(); break;
-                        case 2:  b = depsprite.getBebida(); break;
+                        case COCA:  b = depcoca.getBebida(); break;
+                        case SPRITE:  b = depsprite.getBebida(); break;
                         default: break;
                     }
                     if (b!=null){
@@ -54,8 +60,8 @@ class Expendedor{
             }else{
                 if (mon.getValor()>=preciosD){
                     switch (cualP){
-                        case 3:  d = depsnickers.getDulce(); break;
-                        case 4:  d = depsuper8.getDulce(); break;
+                        case SNICKERS:  d = depsnickers.getDulce(); break;
+                        case SUPER8:  d = depsuper8.getDulce(); break;
                         default: break;
                     }
                     if(d!=null){

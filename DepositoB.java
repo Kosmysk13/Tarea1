@@ -1,6 +1,7 @@
+package org.example;
 import java.util.ArrayList;
 
-class DepositoB{
+public class DepositoB{
     Bebida b = null;
     ArrayList<Bebida> almB = new ArrayList<Bebida>();
     public DepositoB(){

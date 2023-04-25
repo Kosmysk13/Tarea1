@@ -6,8 +6,8 @@ public class Main {
         Moneda mon4 = new Moneda1500();
         System.out.println(mon3.getValor());
         System.out.println(mon4.getValor());
-        Expendedor ex = new Expendedor(10,500);
+        Expendedor ex = new Expendedor(10,1000,500);
         Bebida b1 = ex.comprarProducto(mon3,1);
-        System.out.println(b1.getSerie(b1) + " " + b1.beber());
+        System.out.println(b1.getSerie(b1) + " " + b1.consumir());
     }
 }

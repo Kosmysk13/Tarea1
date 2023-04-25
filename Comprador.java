@@ -1,11 +1,12 @@
-class Comprador{
+package org.example;
+public class Comprador{
     private String sonido=null;
     private int vuelto=0;
-    public Comprador (Moneda m, int cualBebida, Expendedor exp){
+    public Comprador (Moneda m, int cualProducto, Expendedor exp){
         Bebida b = null;
         Moneda m1;
-        if ((b = exp.comprarBebida(m,cualBebida))!=null){
-            sonido = b.beber();
+        if ((b = exp.comprarProducto(m,cualProducto))!=null){
+            sonido = b.consumir();
         }
         while ((m1 = exp.getVuelto())!=null){
             vuelto = vuelto + m1.getValor();

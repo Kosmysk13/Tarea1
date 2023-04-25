@@ -1,11 +1,7 @@
-interface Producto{
-    public Bebida(){
-    }
-    public Dulce(){
-    }
+package org.example;
+
+public class Producto{
     public Producto getSerie(){
         return this.getSerie();
     }
-    public abstract int getValor();
-    public abstract String consumir();
 }

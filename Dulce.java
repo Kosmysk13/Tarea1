@@ -1,4 +1,5 @@
-abstract class Dulce implements Producto{
+package org.example;
+public abstract class Dulce extends Producto{
     private int seriedulce;
     public Dulce(int numSerie){
         seriedulce = numSerie;
@@ -8,19 +9,4 @@ abstract class Dulce implements Producto{
         return seriedulce;
     }
 }
-class Snickers extends Dulce{
-    public Snickers(int serie){
-        super(serie);
-    }
-    public String consumir(){
-        return "snickers";
-    }
-}
-class Super8 extends Dulce{
-    public Super8(int serie){
-        super(serie);
-    }
-    public String consumir(){
-        return "super8";
-    }
-}
+
