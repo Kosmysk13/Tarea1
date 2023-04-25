@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Moneda Comparable">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DepositoB.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DepositoD.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DepositoM.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoM.java" afterDir="false" />
+    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update clases w/public y add Producto">
       <change beforePath="$PROJECT_DIR$/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dulce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682205247811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update clases w/public y add Producto">
+      <created>1682449103822</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682449103822</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +128,7 @@
     <MESSAGE value="Update public Moneda" />
     <MESSAGE value="Add interface Producto" />
     <MESSAGE value="Update Productos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Productos" />
+    <MESSAGE value="Update clases w/public y add Producto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update clases w/public y add Producto" />
   </component>
 </project>
