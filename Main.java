@@ -7,7 +7,7 @@ public class Main {
         System.out.println(mon3.getValor());
         System.out.println(mon4.getValor());
         Expendedor ex = new Expendedor(10,1000,500);
-        Bebida b1 = ex.comprarProducto(mon3,1);
-        System.out.println(b1.getSerie(b1) + " " + b1.consumir());
+        Comprador c = new Comprador(mon3,3,ex);
+        System.out.println(c.queBebiste()+" "+c.cuantoVuelto());
     }
 }
