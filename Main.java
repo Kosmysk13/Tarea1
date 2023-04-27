@@ -7,7 +7,5 @@ public class Main {
         Expendedor ex = new Expendedor(10,1000,500);
         Comprador c = new Comprador(mon3,3,ex);
         System.out.println(c.queBebiste()+" $"+c.cuantoVuelto());
-        Comprador c2 = new Comprador(mon3,3,ex);
-        System.out.println(c2.queBebiste()+" $"+c2.cuantoVuelto());
     }
 }
