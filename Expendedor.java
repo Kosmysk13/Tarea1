@@ -77,10 +77,10 @@ public class Expendedor{
                     monVu.addMoneda(mon1);
                 }
             }
+            return p;
         }else{
             return p;
         }
-        return p;
     }
     public Moneda getVuelto(){
         Moneda m = monVu.getMoneda();

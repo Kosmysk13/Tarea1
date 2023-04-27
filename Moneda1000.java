@@ -8,9 +8,12 @@ public class Moneda1000 extends Moneda{
     public int getValor(){
         return valmon;
     }
-
     @Override
     public int compareTo(Moneda o) {
-        return 0;
+        if (this==o){
+            return 1;
+        }else{
+            return 0;
+        }
     }
 }

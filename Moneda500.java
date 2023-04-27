@@ -10,6 +10,10 @@ public class Moneda500 extends Moneda{
     }
     @Override
     public int compareTo(Moneda o) {
-        return 0;
+        if (this==o){
+            return 1;
+        }else{
+            return 0;
+        }
     }
 }

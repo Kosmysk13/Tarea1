@@ -1,6 +1,6 @@
 package org.example;
 
-public class Moneda100 extends Moneda {
+public class Moneda100 extends Moneda{
     private int valmon=100;
     public Moneda100(){
         super();
@@ -10,6 +10,10 @@ public class Moneda100 extends Moneda {
     }
     @Override
     public int compareTo(Moneda o) {
-        return 0;
+        if (this==o){
+            return 1;
+        }else{
+            return 0;
+        }
     }
 }
