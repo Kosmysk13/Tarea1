@@ -33,7 +33,7 @@ public abstract class Moneda implements Comparable<Moneda>{
     /**
      *
      * @param auxmon Es la moneda con la que se va a comparar
-     * @return retorna la comparacion entre la moneda actual y una moneda ingresada por parametro
+     * @return retorna un booleano, que indica la comparacion entre la moneda actual y una moneda ingresada por parametro, si es 1 son exactamente las mismas, sino son diferentes
      */
     @Override
     public int compareTo(Moneda auxmon){

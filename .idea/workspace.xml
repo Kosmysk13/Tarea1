@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Excepciones">
+    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Add Javadoc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/CocaCola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DepositoB.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DepositoD.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DepositoM.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dulce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Snickers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Super8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Super8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682709312440</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add Javadoc">
+      <created>1682712694213</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682712694213</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +221,8 @@
     <MESSAGE value="Update Monedas" />
     <MESSAGE value="Update Main" />
     <MESSAGE value="Update Excepciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Excepciones" />
+    <MESSAGE value="Add Javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Javadoc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
