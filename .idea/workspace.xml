@@ -6,10 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Excepciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bebida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/CocaCola.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositoB.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositoD.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositoM.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositoM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dulce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Snickers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Super8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Super8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682705278385</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update Excepciones">
+      <created>1682709312440</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682709312440</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

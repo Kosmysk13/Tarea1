@@ -2,6 +2,8 @@ package org.example;
 public class Main {
     public static void main(String[] args){
         Moneda mon3 = new Moneda1000();
+        System.out.println(mon3.getSerie());
+
         Expendedor ex = new Expendedor(10,1000,500);
         Comprador c = null;
         try {
@@ -13,6 +15,6 @@ public class Main {
         } catch (PagoInsuficienteException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(c.queBebiste()+" $"+c.cuantoVuelto());
+        System.out.println(c.queConsumio()+" $"+c.cuantoVuelto());
     }
 }
