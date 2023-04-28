@@ -8,6 +8,10 @@ public class Main {
             c = new Comprador(mon3,3,ex);
         } catch (PagoIncorrectoException e) {
             throw new RuntimeException(e);
+        } catch (NoHayProductoException e) {
+            throw new RuntimeException(e);
+        } catch (PagoInsuficienteException e) {
+            throw new RuntimeException(e);
         }
         System.out.println(c.queBebiste()+" $"+c.cuantoVuelto());
     }

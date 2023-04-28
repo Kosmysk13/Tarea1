@@ -49,8 +49,10 @@ public class Expendedor{
      * @param cualP Identifica que producto se intenta comprar, ya sea dulce o bebida
      * @return Retorna un producto si es que cumple con todas las condiciones para obtenerlo y almacena vuelto si es necesario
      * @throws PagoIncorrectoException Si la moneda es null, entrega el mensaje de error
+     * @throws NoHayProductoException Si no quedan productos del tipo que se pide en el almacen correspondiente, entrega este mensaje de error
+     * @throws PagoInsuficienteException Si la moneda es de valor inferior al precio del producto, se entrega este mensaje de error
      */
-    public Producto comprarProducto(Moneda mon, int cualP) throws PagoIncorrectoException{
+    public Producto comprarProducto(Moneda mon, int cualP) throws PagoIncorrectoException, NoHayProductoException,PagoInsuficienteException{
         Producto p = null;
         if (mon!=null){
             if ((cualP==1)||(cualP==2)){
@@ -68,10 +70,16 @@ public class Expendedor{
                     }else {
                         Moneda mon1 = mon;
                         monVu.addMoneda(mon1);
+                        if (cualP==COCA){
+                            throw new NoHayProductoException("No hay productos del tipo : CocaCola");
+                        }else{
+                            throw new NoHayProductoException("No hay productos del tipo : Sprite");
+                        }
                     }
                 }else{
                     Moneda mon1 = mon;
                     monVu.addMoneda(mon1);
+                    throw new PagoInsuficienteException("El monto ingresado no es suficiente");
                 }
             }else{
                 if (mon.getValor()>=preciosD){
@@ -88,10 +96,16 @@ public class Expendedor{
                     }else {
                         Moneda mon1 = mon;
                         monVu.addMoneda(mon1);
+                        if (cualP==SNICKERS){
+                            throw new NoHayProductoException("No hay productos del tipo : Snickers");
+                        }else{
+                            throw new NoHayProductoException("No hay productos del tipo : Super8");
+                        }
                     }
                 }else{
                     Moneda mon1 = mon;
                     monVu.addMoneda(mon1);
+                    throw new PagoInsuficienteException("El monto ingresado no es suficiente");
                 }
             }
             return p;
