@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Comprador, exp y Producto">
+    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update Main">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bebida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Comprador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda100.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda1500.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda1500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda500.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda500.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682532373419</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update Monedas">
+      <created>1682571935479</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682571935479</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update Main">
+      <created>1682571990659</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682571990659</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,7 +193,9 @@
     <MESSAGE value="Update class Dulce" />
     <MESSAGE value="Update Monedas compareTo" />
     <MESSAGE value="Update Comprador, exp y Producto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Comprador, exp y Producto" />
+    <MESSAGE value="Update Monedas" />
+    <MESSAGE value="Update Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

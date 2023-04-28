@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * Crea y almacena las variables a utilizar, Expendedor se encarga de almacenar y suministrar productos y monedas
+ */
 public class Expendedor{
     protected int preciosB;
     protected int preciosD;
@@ -15,6 +18,12 @@ public class Expendedor{
     public static final int  SUPER8=4;
     DepositoM monVu = new DepositoM();
 
+    /**
+     * Metodo constructor, se encarga de crear y almacenar los productos, y definir los precios de cada uno
+     * @param numProductos Indica cuanto stock de productos habra de bebidas y dulces por igual
+     * @param precioBebidas Indica el precio de las bebidas por igual
+     * @param precioDulces Indica el precio de los dulces por igual
+     */
     public Expendedor(int numProductos, int precioBebidas, int precioDulces){
         preciosB = precioBebidas;
         preciosD = precioDulces;
@@ -33,7 +42,15 @@ public class Expendedor{
             depsuper8.addDulce(d2);
         }
     }
-    public Producto comprarProducto(Moneda mon, int cualP){
+
+    /**
+     * Recibe parametros y revisa si cumple con ciertas condiciones de precio y stock para posteriormente entregar el producto
+     * @param mon Identifica la moneda que se ingresa como medio de pago
+     * @param cualP Identifica que producto se intenta comprar, ya sea dulce o bebida
+     * @return Retorna un producto si es que cumple con todas las condiciones para obtenerlo y almacena vuelto si es necesario
+     * @throws PagoIncorrectoException Si la moneda es null, entrega el mensaje de error
+     */
+    public Producto comprarProducto(Moneda mon, int cualP) throws PagoIncorrectoException{
         Producto p = null;
         if (mon!=null){
             if ((cualP==1)||(cualP==2)){
@@ -79,9 +96,14 @@ public class Expendedor{
             }
             return p;
         }else{
-            return p;
+            throw new PagoIncorrectoException("Moneda invalida : " + mon);
         }
     }
+
+    /**
+     * Solo returna una moneda, por lo que puede ser necesario llamarla varias veces para recibir todo el vuelto
+     * @return Retorna una unica moneda de todo el vuelto que se almaceno
+     */
     public Moneda getVuelto(){
         Moneda m = monVu.getMoneda();
         return m;
