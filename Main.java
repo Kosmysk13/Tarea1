@@ -5,8 +5,9 @@ public class Main {
         Moneda mon2 = new Moneda1000();
         Moneda mon3 = new Moneda1000();
         Moneda mon4 = new Moneda500();
+        Moneda mon5 = mon3;
         System.out.println(mon3.getSerie());
-        System.out.println(mon3.compareTo(mon4));
+        System.out.println(mon3.compareTo(mon5));
         Expendedor ex = new Expendedor(3,1000,500);
         Comprador c1 = null;
         Comprador c2 = null;
