@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Add Javadoc">
+    <list default="true" id="37d86784-d113-40c5-9423-526a823572bb" name="Changes" comment="Update toCompare">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Moneda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682712694213</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Update toCompare">
+      <created>1682712982367</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682712982367</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +228,8 @@
     <MESSAGE value="Update Main" />
     <MESSAGE value="Update Excepciones" />
     <MESSAGE value="Add Javadoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Javadoc" />
+    <MESSAGE value="Update toCompare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update toCompare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
